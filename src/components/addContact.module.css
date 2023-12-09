@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+    margin-bottom: 100px;    
+}
+
+.contacts{
+    border: 2px solid #f5f5f5;
+    list-style: none;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.contacts li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6b6b6b;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.contacts li p{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.contacts span{
+    display: inline-block;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35;
+    border-radius: 50%;
+
+}
+.contacts button{
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contacts button:hover{
+    font-size: 1.5rem;
+}
